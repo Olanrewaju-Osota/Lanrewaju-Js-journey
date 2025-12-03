@@ -1,0 +1,34 @@
+* {
+background-color: lightblue;
+}
+
+button {
+padding: 7px 5px;
+margin-top: 15px;
+}
+
+
+body {
+font-family: Times new roman, san-serif;
+text-align: center;
+margin-top: 30px;
+}
+
+p {
+font-style: italic;
+}
+
+ul {
+list-style-type: circle; 
+text-align: left;
+padding: 10px;
+}
+
+li {
+margin: 10px 0;
+}
+
+.completed {
+text-decoration: line-through;
+color: gray;
+}
