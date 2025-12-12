@@ -1,0 +1,32 @@
+* {
+font-family: Times New Roman, san-serif;
+}
+
+body {
+background-color: #C1D8E7;
+text-align: center;
+color: black;
+}
+
+hr {
+border: 1px solid black;
+}
+
+button {
+margin-top: 10px;
+padding: 10px 10px;
+}
+
+.darkmode {
+background-color: #0B1332;
+color: white;
+}
+
+.darkmode button {
+background-color: #C1D8E7;
+color: #0B1332;
+}
+
+.darkmode hr {
+border: 1px solid white;
+}
