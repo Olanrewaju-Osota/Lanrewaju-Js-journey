@@ -1,0 +1,21 @@
+.palette {
+display: flex;
+gap: 15px;
+margin: 15px;
+justify-content: center;
+}
+
+.color-swatch {
+width: 40px;
+height: 40px;
+border: 2px solid #ccc;
+cursor: pointer;
+}
+
+.color-swatch.red {background-color: red; }
+.color-swatch.green {background-color: green; }
+.color-swatch.blue {background-color: blue; }
+.color-swatch.yellow {background-color: yellow; }
+.color-swatch.purple {background-color: purple; }
+.color-swatch.black {background-color: black; }
+.color-swatch.white {background-color: white; border: 2px solid #000; }
