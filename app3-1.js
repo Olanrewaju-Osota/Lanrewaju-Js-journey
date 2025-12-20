@@ -68,3 +68,5 @@ if(savedColor) {
 document.body.style.backgroundColor = savedColor;
 }
 });
+
+//next extend the app so other elements adapt their colors for a consistent feel
