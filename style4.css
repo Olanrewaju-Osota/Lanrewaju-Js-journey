@@ -1,0 +1,30 @@
+/* {
+background-color: lightblue;
+}
+
+div {
+font-family: Times new roman, san-serif;
+text-align: center;
+margin-top: 30px;
+}*/
+
+/*general page styling*/
+body {
+background-color:#111;  /*dark background for contrast*/
+color: #f00;            /*neon green text (digital feel)*/
+font-family: 'Courier New', monospace; /*classic digital font*/
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;          /*full screen height*/
+margin: 0;
+}
+
+/*Clock container*/
+#time {
+font-size: 5rem;             /*large digits*/
+letter-spacing: 0.1em;       /*spacing between numbers*/
+text-shadow: 0 0 10px #f00,  /*glowing effect*/
+             0 0 20px #f00,
+             0 0 30px #f00;
+}
