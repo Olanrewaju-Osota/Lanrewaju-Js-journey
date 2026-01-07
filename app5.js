@@ -77,6 +77,16 @@ resultsDiv.textContent = `Good Job! You scored ${score}/${totalQuestions}`;
 resultsDiv.textContent = `Keep practicing! You scored ${score}/${totalQuestions}`;
 }}
 
+//signature button flourish
+const button = document.querySelector("button");
+button.addEventListener("mouseover", () => {
+button.style.transform = "scale(1.2)";
+button.style.transition = "transform 0.25s ease";
+});
+
+button.addEventListener("mouseout", () => {
+button.style.transform = "scale(1)";
+});
 
 const quizForm = document.getElementById("quiz-form")
 quizForm.addEventListener("submit", checkAnswers); //this works because the button is wrapped in the form so naturally it submits the selections
